@@ -240,6 +240,7 @@ button.send {
   background-position: center;
   background-attachment: fixed;
   font-family: "Quicksand", sans-serif;
+  -webkit-transform: translateZ(0);
   /* filter: grayscale(2); */
 }
 
