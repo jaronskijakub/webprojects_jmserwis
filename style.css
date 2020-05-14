@@ -1,0 +1,860 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ *:focus {
+     outline: none;
+ }
+
+ header {
+     height: 140vh;
+ }
+
+ body {
+     height: 360vh;
+     background-color: #fff;
+     font-family: 'Quicksand', sans-serif;
+     overflow-x: hidden;
+ }
+
+ div.hamburger {
+     display: none;
+ }
+
+ .banner nav {
+     position: fixed;
+     display: flex;
+     width: 100%;
+     height: 8vh;
+     background-color: rgba(1, 1, 1, 0.8);
+     overflow-y: hidden;
+     padding: 1%;
+     margin-top: 2%;
+     transition: 0.2s linear;
+
+ }
+
+ .banner nav.active {
+     position: fixed;
+     height: 4vh;
+     background-color: rgba(1, 1, 1, 0.85);
+     z-index: 999;
+     padding: 0;
+     margin-top: 0;
+     transition: 0.2s linear;
+ }
+
+ .banner aside {
+     flex-basis: 30%;
+     background-image: url('img/jmLOGO.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     /* opacity: 0.8; */
+     border-right: 1px solid #ddd;
+     /* border-right: 1.5px solid #ddd; wybrac lepszy */
+     height: 100%;
+     margin-left: 20%;
+ }
+
+ .banner aside.active {
+     height: 100%;
+     background-size: 60%;
+     padding: 0;
+
+ }
+
+ .banner nav ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+     height: 100%;
+ }
+
+ .banner nav ul li {
+     position: relative;
+     margin-left: 2%;
+     width: 15%;
+     list-style: none;
+     height: 100%;
+     cursor: pointer;
+ }
+
+ .banner nav ul li.mobileHamburger {
+     display: none;
+ }
+
+ .banner nav ul li a {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 1rem;
+     text-decoration: none;
+     color: #fff;
+     transition: 0.1s linear;
+ }
+
+ .banner nav ul li:hover a {
+     color: #6dd7f7;
+     font-weight: 400;
+     /* border-bottom: 0.2px solid #6dd7f7; */
+     /* padding-bottom: 2%; */
+     /* top: 25%; */
+
+ }
+
+ .banner nav.mobileHamburgerActive {
+     display: none;
+ }
+
+ /* WHAT LOGO SHOCK + KAFELKI */
+
+ .what {
+     display: flex;
+     flex-direction: column;
+     height: calc(140vh - 10vh);
+     transition: 2s;
+ }
+
+ .what.opa {
+     opacity: 0;
+     transition: 2s;
+ }
+
+ .whatyouwant {
+     flex-basis: 40%;
+     position: relative;
+     margin-top: 15%;
+     margin-bottom: 5%;
+     font-size: 2rem;
+     text-align: center;
+ }
+
+ .whatyouwant img {
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 30%;
+     height: auto;
+     animation: logomove 4s linear infinite;
+ }
+
+ .familycompany {
+     display: block;
+     font-weight: 400;
+     margin: 2%;
+     margin-left: -35%;
+     width: 100%;
+     padding-left: 1%;
+     border-left: 1px solid #111;
+     transition: 1s;
+     font-size: 1.8rem;
+     text-transform: uppercase;
+ }
+
+ .familycompany span {
+     font-weight: 500;
+ }
+
+ .familycompany.active {
+     margin-left: 7.5%;
+     padding-left: 1%;
+
+ }
+
+ .whatwedowrapper {
+     flex-basis: 30%;
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .whatwedo {
+     margin: 0 5%;
+     position: absolute;
+     top: -100%;
+     opacity: 0;
+ }
+
+ .whatwedo.active {
+     display: flex;
+     top: 0;
+     left: 0;
+     justify-content: space-around;
+     opacity: 1;
+     transition: 1s ease;
+ }
+
+ .whatwedo.opa {
+     opacity: 0.4;
+ }
+
+ .whatwedo div {
+     /* background-color: #12aedd; */
+     background-color: #f7f7f7;
+     /* opacity: 0.7; */
+     flex-basis: 28%;
+     height: 100%;
+     padding: 2%;
+     text-align: center;
+ }
+
+ .whatwedo div h1 {
+     height: 20%;
+     color: #111;
+     text-align: center;
+     font-weight: 500;
+     padding-bottom: 5%;
+ }
+
+ .whatwedo div i {
+     display: block;
+     font-size: 3rem;
+     color: #111;
+ }
+
+ .whatwedo div p {
+     padding-top: 10%;
+     color: #111;
+     font-size: 1rem;
+     text-align: center;
+ }
+
+ /* WHAT WE DO */
+ body {
+     --leftLogomove: 48%;
+     --leftLogomoveStandard: 50%;
+ }
+
+ button.send {
+     display: none;
+ }
+
+ /* BGC */
+ .bgc {
+     height: 60vh;
+     background-image: url('img/banner7.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     font-family: 'Quicksand', sans-serif;
+     /* filter: grayscale(2); */
+ }
+
+ button.check {
+     display: none;
+ }
+
+ /*OFFER*/
+
+
+ div.offerheader {
+     position: relative;
+     overflow-x: hidden;
+ }
+
+ main div.offerheader h1 {
+     position: relative;
+     text-transform: uppercase;
+     font-weight: 400;
+     text-align: center;
+     margin-top: 5%;
+     margin-bottom: 4%;
+     font-size: 2.4rem;
+ }
+
+ main div.offerheader h1 span {
+     font-weight: 500;
+ }
+
+ main div.offerheader::after {
+     position: absolute;
+     top: 38%;
+     left: 7%;
+     content: "";
+     height: 10vh;
+     width: 100vw;
+     background-color: #fff;
+     animation: offermove 10s linear infinite;
+
+ }
+
+ main div.offer {
+     height: 150vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: flex-start;
+     /* margin: 2% 10%; */
+     /* margin-top: 10%; */
+     padding: 0 10%;
+     overflow: hidden;
+ }
+
+ main div.offer div {
+     width: 60%;
+ }
+
+ main div.offer div:nth-of-type(even) {
+     text-align: left;
+     align-self: flex-end;
+ }
+
+ main div.offer h1 {
+     font-weight: 400;
+     padding: 5% 0;
+ }
+
+ k main div.offer i {
+     height: 2%;
+     width: 2%;
+     padding-right: 4%;
+ }
+
+ main div.offer div {
+     transition: 2s;
+ }
+
+ main div.offer div:nth-child(odd) {
+     transform: translate(-150%);
+ }
+
+ main div.offer div:nth-child(even) {
+     transform: translate(150%);
+ }
+
+ main div.offer div.active:nth-child(odd) {
+     transform: translate(0%);
+ }
+
+ main div.offer div.active:nth-child(even) {
+     transform: translate(0%);
+ }
+
+ /* BGC */
+ .bgc.second {
+     background-image: url('img/banner4.jpg');
+     margin: 10% auto;
+     filter: grayscale(0.9);
+ }
+
+ /* REALIZATIONS */
+ div.realizations {
+     height: 110vh;
+ }
+
+ div.realizations h1 {
+     font-weight: 400;
+     font-size: 2.4rem;
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 2%;
+ }
+
+ div.imgRealizations {
+     height: 60vh;
+     width: 60vw;
+     background-color: transparent;
+     margin: 5% auto 5%;
+     background-image: url(./img/realizations/1.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ div.imgDescription {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 60%;
+     margin: 0 auto;
+ }
+
+ div.desc {
+     flex-basis: 45%;
+ }
+
+ div.left,
+ div.right {
+     flex-basis: 40%;
+     text-align: center;
+ }
+
+ div.desc.active {
+     flex-basis: 70%;
+     align-items: center;
+ }
+
+ div.imgDescription i {
+     font-size: 42px;
+     opacity: 0.8;
+ }
+
+ div.desc h1 {
+     font-size: 32px;
+ }
+
+ div.imgDescription i:hover {
+     color: gray;
+ }
+
+ div.realizations hr {
+     display: none;
+ }
+
+ /* 
+ div.realizations p.citiesname {
+     font-weight: 400;
+     font-size: 2.4rem;
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 2%;
+     background-color: #f7f7f7;
+     transition: 1s;
+ }
+
+ div.realizations div.poland {
+     position: relative;
+     height: 70%;
+     width: 40%;
+     background-image: url('img/polandmaps.png');
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin: auto auto;
+     transition: 1s;
+ }
+
+ div.realizations div.poland i {
+     color: #111;
+     opacity: 0.6;
+ }
+
+ div.realizations div.poland i:hover {
+     color: #111;
+     opacity: 0.8;
+ }
+
+ div.realizations div.poland i:nth-of-type(1) {
+     position: absolute;
+     top: 5%;
+     left: 42%;
+     font-size: 2.2rem;
+ }
+
+ div.realizations div.poland i:nth-of-type(2) {
+     position: absolute;
+     top: 3%;
+     left: 45%;
+     font-size: 2.2rem;
+ }
+
+ div.realizations div.poland i:nth-of-type(3) {
+     position: absolute;
+     top: 2%;
+     left: 32%;
+     font-size: 2.2rem;
+ }
+
+ div.realizations div.poland i:nth-of-type(4) {
+     position: absolute;
+     top: 52%;
+     left: 42%;
+     font-size: 2.2rem;
+ }
+
+ div.realizations div.poland i:nth-of-type(5) {
+     position: absolute;
+     top: 35%;
+     left: 62%;
+     font-size: 2.2rem;
+ }
+
+ */
+
+
+ /* Biedronka Słupsk,
+ Biedronka Jadów,
+ Biedronka Gdańsk Kowale,
+ Biedronka Lubraniec,
+ Biedronka Pabianice,
+ SKM Trójmiasto Gdynia */
+
+
+
+
+ /* COUNTERS */
+
+ div.counters {
+     height: 80vh;
+ }
+
+ div.counters h1 {
+     font-weight: 400;
+     font-size: 2.4rem;
+     text-transform: uppercase;
+     text-align: center;
+     margin: 10% auto;
+
+ }
+
+ div.counters span {
+     font-weight: 500;
+ }
+
+ div.counters hr {
+     margin: 0 auto;
+     width: 86%;
+     margin-top: 8%;
+     margin-bottom: 10%;
+ }
+
+ /* COUNTERS FLEX */
+
+ div.counters div.counterscontainer {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 10%;
+     margin-bottom: 2%;
+ }
+
+ div.counters div.counterscontainer div.count {
+     text-align: center;
+     color: #5e5353;
+ }
+
+ div.counters div.counterscontainer div.count p.counter {
+     font-size: 6rem;
+     font-weight: 400;
+     /* font-family: 'Anton', sans-serif; */
+     transition: 2s;
+ }
+
+ div.counters div.counterscontainer div.count p {
+     font-size: 1.4rem;
+     font-weight: 500;
+ }
+
+
+ /* CONTACT */
+
+ div.contact hr {
+     display: none;
+ }
+
+ div.contact h1 {
+     font-weight: 400;
+     font-size: 2.4rem;
+     text-align: center;
+     text-transform: uppercase;
+ }
+
+ div.contact h1 span {
+     font-weight: 500;
+ }
+
+ div.contact div.contactwrapper {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 5%;
+     margin-bottom: 10%;
+ }
+
+
+ div.contact div.contactwrapper form.sendtous {
+     display: flex;
+     flex-direction: column;
+     margin-top: 1%;
+     /* border-left: 1px solid #111; */
+ }
+
+ div.contact div.contactwrapper form.sendtous input {
+     width: 40vw;
+     height: 5vh;
+     margin: 2% auto;
+     border: none;
+     border-bottom: 1px solid #ddd;
+ }
+
+ div.contact div.contactwrapper form.sendtous input:hover {
+     border-color: #111;
+ }
+
+ div.contact div.contactwrapper form.sendtous input:focus {
+     color: #111;
+     border-color: #111;
+ }
+
+ div.contact div.contactwrapper form.sendtous input:focus::placeholder {
+     color: transparent;
+ }
+
+ div.contact div.contactwrapper form.sendtous input::placeholder {
+     color: gray;
+     font-family: 'Quicksand',
+         sans-serif;
+     padding-left: 0.5%;
+ }
+
+
+ div.contact div.contactwrapper form.sendtous textarea {
+     width: 40vw;
+     height: 10vh;
+     margin: 2% auto;
+     border-color: #ddd;
+
+ }
+
+ div.contact div.contactwrapper form.sendtous textarea::placeholder {
+     color: gray;
+     font-family: 'Quicksand',
+         sans-serif;
+     padding: 0.5%;
+
+ }
+
+ div.contact div.contactwrapper form.sendtous textarea:focus {
+     color: #111;
+     border-color: #111;
+ }
+
+ div.contact div.contactwrapper form.sendtous textarea:focus::placeholder {
+     color: transparent;
+ }
+
+ div.contact div.contactwrapper form.sendtous label {
+     font-size: 1rem;
+     text-align: center;
+     margin: 5% auto;
+     width: 80%;
+ }
+
+ div.contact div.contactwrapper form.sendtous label input {
+     text-align: center;
+     width: 5vw;
+     height: 1.5vh;
+     margin: 0;
+     padding: 0;
+     border: none;
+ }
+
+ div.contact div.contactwrapper form.sendtous p {
+     font-size: 0.7rem;
+     text-align: center;
+ }
+
+ div.contact div.contactwrapper form.sendtous button {
+     text-align: center;
+     margin: 4% auto;
+     width: 10vw;
+     height: 4vh;
+     background-color: transparent;
+     font-family: 'Quicksand',
+         sans-serif;
+     background-color: transparent;
+     border: 1px solid #ddd;
+     text-transform: uppercase;
+     font-size: 1rem;
+     cursor: pointer;
+ }
+
+ div.contact div.contactwrapper form.sendtous button:hover {
+     background-color: #ddd;
+     border: none;
+ }
+
+ /* FOOTER */
+
+ footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+     position: relative;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 40vh;
+     background-color: #f7f7f7;
+ }
+
+ /* 1 slide */
+
+ footer div.address {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     box-sizing: border-box;
+     text-align: center;
+ }
+
+ footer div.address div.sitemap {
+     flex-basis: 25%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     font-size: 0.8rem;
+ }
+
+ footer div.address div.sitemap div {
+     margin: auto 10%;
+ }
+
+ footer div.address div.sitemap ul {
+     list-style: none;
+     text-align: left;
+ }
+
+ footer div.address div.sitemap ul li:nth-of-type(1) {
+     padding: 10px 0;
+     font-weight: 500;
+     font-size: 1rem;
+ }
+
+ footer div.address div.sitemap ul a {
+     display: inline-block;
+     padding: 2.5px 0;
+     text-decoration: none;
+     color: #111;
+ }
+
+ footer div.address div.sitemap ul a:hover {
+     color: gray;
+ }
+
+ footer div.address div.company {
+     flex-basis: 25%;
+     text-align: center;
+     width: 33%;
+ }
+
+ footer div.address h2 {
+     font-weight: 400;
+     font-size: 1.4rem;
+ }
+
+
+ footer div.address p {
+     font-size: 1rem;
+ }
+
+ footer div.address div.arrow {
+     width: 25%;
+ }
+
+ footer div.address i {
+     font-size: 5.5vh;
+ }
+
+ footer div.address i:hover {
+     color: gray;
+     cursor: pointer;
+ }
+
+ /* 2 slide */
+
+ footer div.footercopy {
+     align-items: center;
+     height: 10vh;
+     width: 100vw;
+     background-color: rgba(1, 1, 1, 0.85);
+     color: #ddd;
+ }
+
+ footer div.footercopy p {
+     text-align: center;
+     font-size: 0.8rem;
+ }
+
+ footer div.footercopy p:nth-of-type(1) {
+     padding-top: 1%;
+ }
+
+ footer div.footercopy p:nth-of-type(2) {
+     padding: 0.5%;
+     font-family: 'Pacifico', cursive;
+     font-weight: 400;
+     color: ddd;
+ }
+
+
+
+
+ @keyframes logomove {
+
+
+     0% {}
+
+     90% {
+         left: var(--leftLogomoveStandard)
+     }
+
+     91% {
+         left: var(--leftLogomove);
+     }
+
+     92% {
+         left: var(--leftLogomoveStandard);
+     }
+
+     93% {
+         left: var(--leftLogomove);
+     }
+
+     94% {
+         left: var(--leftLogomoveStandard);
+     }
+
+     95% {
+         left: var(--leftLogomove);
+     }
+
+     96% {
+         left: var(--leftLogomoveStandard);
+     }
+
+     97% {
+         left: var(--leftLogomove);
+     }
+
+     98% {
+         left: var(--leftLogomoveStandard);
+     }
+
+     99% {
+         left: var(--leftLogomove);
+     }
+
+     100% {
+         left: var(--leftLogomoveStandard);
+     }
+
+ }
+
+ @keyframes offermove {
+     0% {}
+
+     45% {
+         left: 94%;
+     }
+
+     95% {
+         left: 94%;
+     }
+
+     100% {
+         left: 7%;
+     }
+ }
