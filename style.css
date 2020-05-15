@@ -240,11 +240,6 @@ button.send {
   background-position: center;
   background-attachment: fixed;
   font-family: "Quicksand", sans-serif;
-  top: 0;
-  left: 0;
-  /* Preserve aspect ratio */
-  min-width: 100%;
-  min-height: 100%;
   /* filter: grayscale(2); */
 }
 
