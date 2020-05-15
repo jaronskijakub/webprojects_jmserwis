@@ -337,6 +337,9 @@ main div.offer div.active:nth-child(even) {
   background-image: url("img/banner4.jpg");
   margin: 10% auto;
   filter: grayscale(0.9);
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /* REALIZATIONS */
