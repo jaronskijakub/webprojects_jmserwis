@@ -690,6 +690,12 @@
   }
 }
 
+_::-webkit-full-page-media,
+_:future,
+:root .bgc {
+  background-attachment: scroll;
+}
+
 /*OFFER HEADER*/
 
 @media (orientation: portrait) and (min-width: 319px) {
