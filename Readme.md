@@ -2,6 +2,8 @@
 
 The first website design in my career. Project made for the JM SERWIS enterprise.
 
+[View deployment](https://jaronskijakub.github.io/webprojects_jmserwis/)
+
 ##
 
 I created it directly after completing the HTML / CSS, JS course.
