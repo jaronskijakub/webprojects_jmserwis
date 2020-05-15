@@ -1,1121 +1,1062 @@
 /*ALL*/
 @media (min-width: 319px) {
-
-    header,
-    main,
-    footer {
-        overflow-x: hidden;
-    }
-
-
+  header,
+  main,
+  footer {
+    overflow-x: hidden;
+  }
 }
 
 /*Mobilne */
 
 @media (orientation: portrait) and (min-width: 319px) {
+  /*Banner */
+  .banner nav {
+    position: fixed;
+    height: 10vh;
+    width: 120%;
+    margin-top: 0;
+    position: static;
+    background-color: #111;
+  }
 
-    /*Banner */
-    .banner nav {
-        position: fixed;
-        height: 10vh;
-        width: 120%;
-        margin-top: 0;
-        position: static;
-        background-color: #111;
-    }
-
-    /* .banner nav.hamburger {
+  /* .banner nav.hamburger {
         position: fixed;
         height: 100vh;
         background-color: #111;
         z-index: 99999;
     } */
 
-    .banner aside {
-        flex-basis: 70%;
-        border-right: none;
-        height: 100%;
-        margin-left: 0;
-    }
+  .banner aside {
+    flex-basis: 70%;
+    border-right: none;
+    height: 100%;
+    margin-left: 0;
+  }
 
-    /* .banner aside.logobanner.active {
+  /* .banner aside.logobanner.active {
          display: none;
      } */
 
-    .banner nav ul {
-        display: flex;
-        width: 100%;
-        height: 100%;
-    }
+  .banner nav ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
 
-    .banner nav ul li {
-        height: auto;
-        display: none;
-    }
+  .banner nav ul li {
+    height: auto;
+    display: none;
+  }
 
-    .banner nav ul li.mobileHamburger {
-        text-align: right;
-        display: block;
-        color: #ddd;
-        font-size: 24px;
-        margin-right: 22%;
-    }
+  .banner nav ul li.mobileHamburger {
+    text-align: right;
+    display: block;
+    color: #ddd;
+    font-size: 24px;
+    margin-right: 22%;
+  }
 
-
-    .banner nav ul li a {
-        display: none;
-    }
+  .banner nav ul li a {
+    display: none;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 350px) {
+  /*Banner */
+  .banner nav {
+    width: 100%;
+  }
 
-    /*Banner */
-    .banner nav {
-        width: 100%;
-    }
-
-    .banner nav ul li.mobileHamburger {
-        margin-right: 5%;
-    }
+  .banner nav ul li.mobileHamburger {
+    margin-right: 5%;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 750px) {
+  /*Banner */
+  .banner nav {
+    height: 10vh;
+    width: 100%;
+  }
 
-    /*Banner */
-    .banner nav {
-        height: 10vh;
-        width: 100%;
-    }
+  .banner aside {
+    flex-basis: 60%;
+    height: 100%;
+  }
 
-    .banner aside {
-        flex-basis: 60%;
-        height: 100%;
-    }
-
-    /* .banner aside.logobanner.active {
+  /* .banner aside.logobanner.active {
          display: none;
      } */
 
+  .banner nav ul li.mobileHamburger {
+    text-align: right;
+    display: block;
+    color: #ddd;
+    font-size: 34px;
+    margin-right: 5%;
+  }
 
-    .banner nav ul li.mobileHamburger {
-        text-align: right;
-        display: block;
-        color: #ddd;
-        font-size: 34px;
-        margin-right: 5%;
-    }
-
-
-    .banner nav ul li a {
-        display: none;
-    }
-
+  .banner nav ul li a {
+    display: none;
+  }
 }
 
 /*LANDSCAPE*/
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
+  /*Banner */
+  .banner nav {
+    position: fixed;
+    height: 14vh;
+    width: 100%;
+    margin-top: 0;
+    position: static;
+    background-color: #111;
+  }
 
-    /*Banner */
-    .banner nav {
-        position: fixed;
-        height: 14vh;
-        width: 100%;
-        margin-top: 0;
-        position: static;
-        background-color: #111;
-    }
+  .banner aside {
+    flex-basis: 40%;
+    background-image: url("img/jmLOGO.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right: none;
+    height: 100%;
+    margin-left: 20%;
+  }
 
+  .banner nav ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
 
-    .banner aside {
-        flex-basis: 40%;
-        background-image: url('img/jmLOGO.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-right: none;
-        height: 100%;
-        margin-left: 20%;
-    }
+  .banner nav ul li {
+    height: auto;
+    display: none;
+  }
 
-    .banner nav ul {
-        display: flex;
-        width: 100%;
-        height: 100%;
-    }
+  .banner nav ul li.mobileHamburger {
+    text-align: right;
+    display: block;
+    color: #ddd;
+    font-size: 24px;
+    margin-right: 10%;
+  }
 
-    .banner nav ul li {
-        height: auto;
-        display: none;
-    }
-
-    .banner nav ul li.mobileHamburger {
-        text-align: right;
-        display: block;
-        color: #ddd;
-        font-size: 24px;
-        margin-right: 10%;
-    }
-
-
-    .banner nav ul li a {
-        display: none;
-    }
+  .banner nav ul li a {
+    display: none;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
+  /*Banner */
+  .banner nav {
+    position: fixed;
+    height: 20vh;
+    width: 100%;
+    margin-top: 0;
+    position: static;
+    background-color: #111;
+  }
 
-    /*Banner */
-    .banner nav {
-        position: fixed;
-        height: 20vh;
-        width: 100%;
-        margin-top: 0;
-        position: static;
-        background-color: #111;
-    }
+  .banner aside {
+    flex-basis: 40%;
+    background-image: url("img/jmLOGO.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right: none;
+    height: 100%;
+    margin-left: 20%;
+  }
 
+  .banner nav ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
 
-    .banner aside {
-        flex-basis: 40%;
-        background-image: url('img/jmLOGO.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-right: none;
-        height: 100%;
-        margin-left: 20%;
-    }
+  .banner nav ul li {
+    height: auto;
+    display: none;
+  }
 
-    .banner nav ul {
-        display: flex;
-        width: 100%;
-        height: 100%;
-    }
+  .banner nav ul li.mobileHamburger {
+    text-align: right;
+    display: block;
+    color: #ddd;
+    font-size: 24px;
+    margin-right: 10%;
+  }
 
-    .banner nav ul li {
-        height: auto;
-        display: none;
-    }
-
-    .banner nav ul li.mobileHamburger {
-        text-align: right;
-        display: block;
-        color: #ddd;
-        font-size: 24px;
-        margin-right: 10%;
-    }
-
-
-    .banner nav ul li a {
-        display: none;
-    }
+  .banner nav ul li a {
+    display: none;
+  }
 }
-
 
 /*HAMBURGER*/
 
 @media (orientation: portrait) and (min-width: 319px) {
-    div.hamburger {
-        display: none;
-    }
+  div.hamburger {
+    display: none;
+  }
 
-    div.hamburger.active {
-        display: block;
-        overflow-y: hidden;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        background-color: #111;
-        z-index: 99999;
-    }
+  div.hamburger.active {
+    display: block;
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    z-index: 99999;
+  }
 
-    div.hamburger.active div.logo {
-        width: 100%;
-        height: 20vh;
-    }
+  div.hamburger.active div.logo {
+    width: 100%;
+    height: 20vh;
+  }
 
-    /* body {
+  /* body {
         overflow: hidden;
     } */
 
-    div.hamburger.active div.logo img {
-        position: fixed;
-        top: -5%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+  div.hamburger.active div.logo img {
+    position: fixed;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    div.hamburger.active div.logo hr {
-        display: block;
-        position: fixed;
-        top: 15%;
-        left: 50%;
-        transform: translateX(-50%);
-        color: #fff;
-        width: 80%;
-        margin: 10% auto;
-        border-radius: 50%;
-    }
+  div.hamburger.active div.logo hr {
+    display: block;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    width: 80%;
+    margin: 10% auto;
+    border-radius: 50%;
+  }
 
-    div.hamburger.active ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 60vh;
-        color: #fff;
-    }
+  div.hamburger.active ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    color: #fff;
+  }
 
-    div.hamburger.active ul li {
-        width: 60%;
-        padding: 2%;
-        border-bottom: 1px solid gray;
-        text-align: center;
-        list-style: none;
-    }
+  div.hamburger.active ul li {
+    width: 60%;
+    padding: 2%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    list-style: none;
+  }
 
-    div.hamburger.active ul i {
-        margin-top: 5%;
-        color: gray;
-        font-size: 28px;
-        opacity: 0.5;
-    }
-
+  div.hamburger.active ul i {
+    margin-top: 5%;
+    color: gray;
+    font-size: 28px;
+    opacity: 0.5;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 350px) {
-    div.hamburger.active div.logo hr {
-        border-radius: 50%;
-        top: 10%;
-    }
+  div.hamburger.active div.logo hr {
+    border-radius: 50%;
+    top: 10%;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 750px) {
+  div.hamburger.active div.logo img {
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    div.hamburger.active div.logo img {
-        position: fixed;
-        top: 2%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+  div.hamburger.active ul li {
+    font-size: 26px;
+  }
 
-    div.hamburger.active ul li {
-        font-size: 26px;
-    }
+  div.hamburger.active ul i {
+    font-size: 32px;
+  }
 
-    div.hamburger.active ul i {
-        font-size: 32px;
-    }
-
-    div.hamburger.active div.logo hr {
-        border-radius: 50%;
-        top: 10%;
-    }
-
+  div.hamburger.active div.logo hr {
+    border-radius: 50%;
+    top: 10%;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
-    div.hamburger {
-        display: none;
-    }
+  div.hamburger {
+    display: none;
+  }
 
-    div.hamburger.active {
-        display: block;
-        overflow-y: hidden;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        background-color: #111;
-        z-index: 99999;
-    }
+  div.hamburger.active {
+    display: block;
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    z-index: 99999;
+  }
 
-    div.hamburger.active div.logo {
-        width: 100%;
-        height: 10vh;
-    }
+  div.hamburger.active div.logo {
+    width: 100%;
+    height: 10vh;
+  }
 
-    /* body {
+  /* body {
         overflow: hidden;
     } */
 
-    div.hamburger.active div.logo img {
-        position: fixed;
-        top: -17%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+  div.hamburger.active div.logo img {
+    position: fixed;
+    top: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    div.hamburger.active div.logo hr {
-        display: block;
-        color: #fff;
-        width: 80%;
-        margin: 10% auto;
-    }
+  div.hamburger.active div.logo hr {
+    display: block;
+    color: #fff;
+    width: 80%;
+    margin: 10% auto;
+  }
 
-    div.hamburger.active ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 60vh;
-        color: #fff;
-    }
+  div.hamburger.active ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    color: #fff;
+  }
 
-    div.hamburger.active ul li {
-        width: 60%;
-        padding: 2%;
-        border-bottom: 1px solid gray;
-        text-align: center;
-        list-style: none;
-    }
+  div.hamburger.active ul li {
+    width: 60%;
+    padding: 2%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    list-style: none;
+  }
 
-    div.hamburger.active ul i {
-        margin-top: 5%;
-        color: gray;
-        font-size: 28px;
-        opacity: 0.5;
-    }
-
+  div.hamburger.active ul i {
+    margin-top: 5%;
+    color: gray;
+    font-size: 28px;
+    opacity: 0.5;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
-    div.hamburger.active div.logo {
-        width: 100%;
-        height: 30vh;
-    }
+  div.hamburger.active div.logo {
+    width: 100%;
+    height: 30vh;
+  }
 
-    div.hamburger.active div.logo img {
-        position: fixed;
-        top: -17%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+  div.hamburger.active div.logo img {
+    position: fixed;
+    top: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    div.hamburger.active div.logo hr {
-        position: fixed;
-        top: 5%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+  div.hamburger.active div.logo hr {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    div.hamburger.active ul i {
-        margin-top: 5%;
-        color: gray;
-        font-size: 28px;
-        opacity: 0.5;
-    }
+  div.hamburger.active ul i {
+    margin-top: 5%;
+    color: gray;
+    font-size: 28px;
+    opacity: 0.5;
+  }
 }
-
-
-
 
 /* YOU NEED WINDOW? */
 /*Mobilne */
 @media (orientation: portrait) and (min-width: 319px) {
+  /*1 STRONA */
 
-    /*1 STRONA */
+  .what {
+    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    height: 100vh;
+    transition: 2s;
+    overflow-y: hidden;
+  }
 
-    .what {
-        display: flex;
-        /* display: flex; */
-        flex-direction: column;
-        height: 100vh;
-        transition: 2s;
-        overflow-y: hidden;
-    }
+  header {
+    height: 120vh;
+  }
 
-    header {
-        height: 120vh;
-    }
+  .whatyouwant {
+    flex-basis: 40%;
+    margin-top: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+  }
 
-    .whatyouwant {
-        flex-basis: 40%;
-        margin-top: 35%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 0;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .whatyouwant img {
-        display: block;
-        animation: none;
-        width: 90%;
-        height: auto;
-    }
+  .whatyouwant img {
+    display: block;
+    animation: none;
+    width: 90%;
+    height: auto;
+  }
 }
 
-
 @media (orientation: portrait) and (min-width: 350px) {
+  /*1 STRONA */
 
-    /*1 STRONA */
-
-    header {
-        height: 100vh;
-    }
-
+  header {
+    height: 100vh;
+  }
 }
 
 /*Tablety */
 @media (orientation: portrait) and (min-width: 750px) {
+  /*1 STRONA */
 
-    /*1 STRONA */
+  .whatyouwant {
+    font-size: 32px;
+    flex-basis: 40%;
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    text-align: center;
+  }
 
-    .whatyouwant {
-        font-size: 32px;
-        flex-basis: 40%;
-        margin-top: 25%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 0;
-        text-align: center;
-    }
-
-    .whatyouwant img {
-        display: block;
-        animation: none;
-        width: 60%;
-        height: auto;
-    }
-
+  .whatyouwant img {
+    display: block;
+    animation: none;
+    width: 60%;
+    height: auto;
+  }
 }
 
 /*LANDSCAPE*/
 
-
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
+  .what {
+    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    height: 100vh;
+    transition: 2s;
+    overflow-y: hidden;
+  }
 
-    .what {
-        display: flex;
-        /* display: flex; */
-        flex-direction: column;
-        height: 100vh;
-        transition: 2s;
-        overflow-y: hidden;
-    }
+  header {
+    height: 120vh;
+  }
 
-    header {
-        height: 120vh;
-    }
+  .whatyouwant {
+    flex-basis: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+  }
 
-    .whatyouwant {
-        flex-basis: 40%;
-        margin-top: 10%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 0;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .whatyouwant img {
-        display: block;
-        animation: none;
-        width: 40%;
-        height: auto;
-    }
+  .whatyouwant img {
+    display: block;
+    animation: none;
+    width: 40%;
+    height: auto;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
+  .what {
+    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    height: 100vh;
+    transition: 2s;
+    overflow-y: hidden;
+  }
 
-    .what {
-        display: flex;
-        /* display: flex; */
-        flex-direction: column;
-        height: 100vh;
-        transition: 2s;
-        overflow-y: hidden;
-    }
+  header {
+    height: 120vh;
+  }
 
-    header {
-        height: 120vh;
-    }
+  .whatyouwant {
+    flex-basis: 40%;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+  }
 
-    .whatyouwant {
-        flex-basis: 40%;
-        margin-top: 8%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 0;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .whatyouwant img {
-        display: block;
-        animation: none;
-        width: 40%;
-        height: auto;
-    }
+  .whatyouwant img {
+    display: block;
+    animation: none;
+    width: 40%;
+    height: auto;
+  }
 }
-
-
-
 
 /*BUTTON SEND TO US*/
 
 @media (orientation: portrait) and (min-width: 319px) {
+  /*1 STRONA */
 
-    /*1 STRONA */
+  button.send {
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    width: 60%;
+    background-color: #fff;
+    border: 1px solid #111;
+    color: #111;
+    height: 7vh;
+    margin: 0 auto;
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 4px;
+  }
 
-    button.send {
-        display: block;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 16px;
-        width: 60%;
-        background-color: #fff;
-        border: 1px solid #111;
-        color: #111;
-        height: 7vh;
-        margin: 0 auto;
-        box-shadow: 2px 5px 10px gray;
-        border-radius: 4px;
-    }
-
-    button.send:focus {
-        background-color: #eee;
-    }
-
+  button.send:focus {
+    background-color: #eee;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 750px) {
-    button.send {
-        display: block;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 12px;
-        width: 50%;
-        background-color: #fff;
-        border: 1px solid #111;
-        color: #111;
-        height: 7vh;
-        margin: 5% auto;
-        box-shadow: 2px 5px 10px gray;
-        border-radius: 4px;
-    }
+  button.send {
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #111;
+    color: #111;
+    height: 7vh;
+    margin: 5% auto;
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 4px;
+  }
 
-    button.send:focus {
-        background-color: #eee;
-    }
+  button.send:focus {
+    background-color: #eee;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
-    button.send {
-        display: block;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 12px;
-        width: 40%;
-        background-color: #fff;
-        border: 1px solid #111;
-        color: #111;
-        height: 9vh;
-        margin: 5% auto;
-        box-shadow: 2px 5px 10px gray;
-        border-radius: 4px;
-    }
+  button.send {
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 40%;
+    background-color: #fff;
+    border: 1px solid #111;
+    color: #111;
+    height: 9vh;
+    margin: 5% auto;
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 4px;
+  }
 
-    button.send:focus {
-        background-color: #eee;
-    }
+  button.send:focus {
+    background-color: #eee;
+  }
 }
-
-
-
-
-
 
 /*OFFERS*/
 
 @media (orientation: portrait) and (min-width: 319px) {
+  /*2 STRONA */
 
-    /*2 STRONA */
+  h1.familycompany {
+    display: none;
+  }
 
-    h1.familycompany {
-        display: none;
-    }
+  .whatwedo.whatwedo.active {
+    display: none;
+  }
 
-    .whatwedo.whatwedo.active {
-        display: none;
-    }
-
-    .whatwedowrapper {
-        display: none;
-    }
-
-
+  .whatwedowrapper {
+    display: none;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 350px) {
+  /*2 STRONA */
 
-    /*2 STRONA */
+  h1.familycompany {
+    display: none;
+  }
 
-    h1.familycompany {
-        display: none;
-    }
-
-    .whatwedo.active {
-        display: flex;
-    }
+  .whatwedo.active {
+    display: flex;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
+  h1.familycompany {
+    display: none;
+  }
 
-    h1.familycompany {
-        display: none;
-    }
+  .whatwedo.whatwedo.active {
+    display: none;
+  }
 
-    .whatwedo.whatwedo.active {
-        display: none;
-    }
-
-    .whatwedowrapper {
-        display: none;
-    }
+  .whatwedowrapper {
+    display: none;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
+  h1.familycompany {
+    display: none;
+  }
 
-    h1.familycompany {
-        display: none;
-    }
+  .whatwedo.whatwedo.active {
+    display: none;
+  }
 
-    .whatwedo.whatwedo.active {
-        display: none;
-    }
-
-    .whatwedowrapper {
-        display: none;
-    }
+  .whatwedowrapper {
+    display: none;
+  }
 }
-
 
 /*BGC*/
 
 @media (orientation: portrait) and (min-width: 319px) {
-    .bgc {
-        height: 100vh;
-        background-position: right;
-        filter: grayscale(0.6);
-    }
+  .bgc {
+    height: 100vh;
+    background-position: right;
+    filter: grayscale(0.6);
+  }
 
-    button.check {
-        display: inline-block;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 16px;
-        width: 60%;
-        background-color: rgba(255, 255, 255, 0.4);
-        border: 2px solid #111;
-        color: #111;
-        height: 7vh;
-        margin: 140% 20% 0;
-        box-shadow: 2px 5px 10px gray;
-        border-radius: 4px;
-    }
+  button.check {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #111;
+    color: #111;
+    height: 7vh;
+    margin: 140% 20% 0;
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 4px;
+  }
 
-    button.send:focus {
-        background-color: #eee;
-    }
+  button.send:focus {
+    background-color: #eee;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 750px) {
-
-    button.check {
-        margin: 110% 20% 0;
-    }
+  button.check {
+    margin: 110% 20% 0;
+  }
 }
 
 /*OFFER HEADER*/
 
 @media (orientation: portrait) and (min-width: 319px) {
-    main div.offerheader::after {
-        display: none;
-    }
+  main div.offerheader::after {
+    display: none;
+  }
 
-    div.offerheader {
-        position: static;
-    }
+  div.offerheader {
+    position: static;
+  }
 
-    main div.offerheader h1 {
-        position: static;
-        margin-top: 15%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 24px;
-    }
+  main div.offerheader h1 {
+    position: static;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 24px;
+  }
 
-    /*OFFER SRODEK */
+  /*OFFER SRODEK */
 
-    main div.offer {
-        height: 420vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        /* margin: 2% 10%; */
-        /* margin-top: 10%; */
-        padding: 0 1%;
-        overflow: hidden;
-    }
+  main div.offer {
+    height: 420vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 2% 10%; */
+    /* margin-top: 10%; */
+    padding: 0 1%;
+    overflow: hidden;
+  }
 
-    main div.offer div {
-        width: 70%;
-        text-align: center;
-    }
+  main div.offer div {
+    width: 70%;
+    text-align: center;
+  }
 
-    main div.offer div:nth-of-type(even) {
-        text-align: center;
-        align-self: center;
-    }
+  main div.offer div:nth-of-type(even) {
+    text-align: center;
+    align-self: center;
+  }
 
-    main div.offer h1 {
-        font-size: 20px;
-        font-weight: 400;
-        padding: 15% 0;
-    }
+  main div.offer h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15% 0;
+  }
 
-    main div.offer i {
-        vertical-align: bottom;
-        font-size: 24px;
-        padding-right: 15%
-    }
+  main div.offer i {
+    vertical-align: bottom;
+    font-size: 24px;
+    padding-right: 15%;
+  }
 
-    main div.offer p {
-        font-size: 14px;
-    }
-
+  main div.offer p {
+    font-size: 14px;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 349px) {
-    main div.offerheader::after {
-        display: none;
-    }
+  main div.offerheader::after {
+    display: none;
+  }
 
-    div.offerheader {
-        position: static;
-    }
+  div.offerheader {
+    position: static;
+  }
 
-    main div.offerheader h1 {
-        position: static;
-        margin-top: 15%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 28px;
-    }
+  main div.offerheader h1 {
+    position: static;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 28px;
+  }
 
-    /*OFFER SRODEK */
+  /*OFFER SRODEK */
 
-    main div.offer {
-        height: 380vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        /* margin: 2% 10%; */
-        /* margin-top: 10%; */
-        padding: 0 1%;
-        overflow: hidden;
-    }
+  main div.offer {
+    height: 380vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 2% 10%; */
+    /* margin-top: 10%; */
+    padding: 0 1%;
+    overflow: hidden;
+  }
 
-    main div.offer div {
-        width: 70%;
-        text-align: center;
-    }
+  main div.offer div {
+    width: 70%;
+    text-align: center;
+  }
 
-    main div.offer div:nth-of-type(even) {
-        text-align: center;
-        align-self: center;
-    }
+  main div.offer div:nth-of-type(even) {
+    text-align: center;
+    align-self: center;
+  }
 
-    main div.offer h1 {
-        font-size: 24px;
-        font-weight: 400;
-        padding: 15% 0;
-    }
+  main div.offer h1 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15% 0;
+  }
 
-    main div.offer i {
-        vertical-align: bottom;
-        font-size: 35px;
-        padding-right: 15%;
-    }
+  main div.offer i {
+    vertical-align: bottom;
+    font-size: 35px;
+    padding-right: 15%;
+  }
 
-    main div.offer p {
-        font-size: 16px;
-    }
-
+  main div.offer p {
+    font-size: 16px;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 750px) {
+  main div.offerheader h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
+  /*OFFER SRODEK */
 
-    main div.offerheader h1 {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
+  main div.offer {
+    height: 240vh;
+  }
 
-    /*OFFER SRODEK */
+  main div.offer div {
+    width: 70%;
+  }
 
-    main div.offer {
-        height: 240vh;
-    }
+  main div.offer h1 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 15% 0;
+  }
 
-    main div.offer div {
-        width: 70%;
-    }
+  main div.offer p {
+    font-size: 20px;
+  }
 
-    main div.offer h1 {
-        font-size: 32px;
-        font-weight: 400;
-        padding: 15% 0;
-    }
-
-    main div.offer p {
-        font-size: 20px;
-    }
-
-    main div.offer i {
-        padding-right: 8%;
-    }
+  main div.offer i {
+    padding-right: 8%;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
-    main div.offerheader::after {
-        display: none;
-    }
+  main div.offerheader::after {
+    display: none;
+  }
 
-    div.offerheader {
-        position: static;
-    }
+  div.offerheader {
+    position: static;
+  }
 
-    main div.offerheader h1 {
-        position: static;
-        margin-top: 15%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 26px;
-    }
+  main div.offerheader h1 {
+    position: static;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 26px;
+  }
 
-    /*OFFER SRODEK */
+  /*OFFER SRODEK */
 
-    main div.offer {
-        height: 420vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        /* margin: 2% 10%; */
-        /* margin-top: 10%; */
-        padding: 0 1%;
-        overflow: hidden;
-    }
+  main div.offer {
+    height: 420vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 2% 10%; */
+    /* margin-top: 10%; */
+    padding: 0 1%;
+    overflow: hidden;
+  }
 
-    main div.offer div {
-        width: 70%;
-        text-align: center;
-    }
+  main div.offer div {
+    width: 70%;
+    text-align: center;
+  }
 
-    main div.offer div:nth-of-type(even) {
-        text-align: center;
-        align-self: center;
-    }
+  main div.offer div:nth-of-type(even) {
+    text-align: center;
+    align-self: center;
+  }
 
-    main div.offer h1 {
-        font-size: 22px;
-        font-weight: 400;
-        padding: 10% 0;
-    }
+  main div.offer h1 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10% 0;
+  }
 
-    main div.offer i {
-        vertical-align: center;
-        font-size: 24px;
-        padding-right: 5%
-    }
+  main div.offer i {
+    vertical-align: center;
+    font-size: 24px;
+    padding-right: 5%;
+  }
 
-    main div.offer p {
-        font-size: 17px;
-    }
+  main div.offer p {
+    font-size: 17px;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
-    main div.offerheader::after {
-        display: none;
-    }
+  main div.offerheader::after {
+    display: none;
+  }
 
-    div.offerheader {
-        position: static;
-    }
+  div.offerheader {
+    position: static;
+  }
 
-    main div.offerheader h1 {
-        position: static;
-        margin-top: 15%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 24px;
-    }
+  main div.offerheader h1 {
+    position: static;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 24px;
+  }
 
-    /*OFFER SRODEK */
+  /*OFFER SRODEK */
 
-    main div.offer {
-        height: 420vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        /* margin: 2% 10%; */
-        /* margin-top: 10%; */
-        padding: 0 1%;
-        overflow: hidden;
-    }
+  main div.offer {
+    height: 420vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 2% 10%; */
+    /* margin-top: 10%; */
+    padding: 0 1%;
+    overflow: hidden;
+  }
 
-    main div.offer div {
-        width: 70%;
-        text-align: center;
-    }
+  main div.offer div {
+    width: 70%;
+    text-align: center;
+  }
 
-    main div.offer div:nth-of-type(even) {
-        text-align: center;
-        align-self: center;
-    }
+  main div.offer div:nth-of-type(even) {
+    text-align: center;
+    align-self: center;
+  }
 
-    main div.offer h1 {
-        font-size: 20px;
-        font-weight: 400;
-        padding: 10% 0;
-    }
+  main div.offer h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10% 0;
+  }
 
-    main div.offer i {
-        vertical-align: bottom;
-        font-size: 24px;
-        padding-right: 8%
-    }
+  main div.offer i {
+    vertical-align: bottom;
+    font-size: 24px;
+    padding-right: 8%;
+  }
 
-    main div.offer p {
-        font-size: 14px;
-    }
+  main div.offer p {
+    font-size: 14px;
+  }
 }
-
-
 
 /* REALIZATIONS */
 
 @media (orientation: portrait) and (min-width: 319px) {
-    main div.realizations h1 {
-        font-size: 24px;
-    }
+  main div.realizations h1 {
+    font-size: 24px;
+  }
 
-    div.realizations {
-        height: 100vh;
-    }
+  div.realizations {
+    height: 100vh;
+  }
 
-    div.realizations h1 {
-        font-size: 24px;
-    }
+  div.realizations h1 {
+    font-size: 24px;
+  }
 
-    div.realizations p {
-        display: none;
-        font-size: 14px;
-        text-align: center;
-    }
+  div.realizations p {
+    display: none;
+    font-size: 14px;
+    text-align: center;
+  }
 
-    div.realizations div.desc h1 {
-        font-size: 20px;
-        font-weight: 400;
-    }
+  div.realizations div.desc h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
 
-    div.realizations i {
-        font-size: 22px;
+  div.realizations i {
+    font-size: 22px;
+  }
 
-    }
+  div.imgRealizations {
+    margin: 0 auto;
+  }
 
-    div.imgRealizations {
-        margin: 0 auto;
-    }
+  div.imgDescription {
+    width: 90%;
+  }
 
-    div.imgDescription {
-        width: 90%;
-    }
-
-    div.realizations hr {
-        display: block;
-        width: 80%;
-        margin: 10% auto;
-    }
+  div.realizations hr {
+    display: block;
+    width: 80%;
+    margin: 10% auto;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 349px) {
-    main div.realizations h1 {
-        font-size: 28px;
-    }
+  main div.realizations h1 {
+    font-size: 28px;
+  }
 
-    div.imgRealizations {
-        margin: 0 auto;
-    }
+  div.imgRealizations {
+    margin: 0 auto;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
-    main div.realizations h1 {
-        font-size: 24px;
-    }
+  main div.realizations h1 {
+    font-size: 24px;
+  }
 
-    div.realizations {
-        height: 128vh;
-    }
+  div.realizations {
+    height: 128vh;
+  }
 
-    div.realizations h1 {
-        font-size: 24px;
-    }
+  div.realizations h1 {
+    font-size: 24px;
+  }
 
-    div.realizations p {
-        display: none;
-        font-size: 14px;
-        text-align: center;
-    }
+  div.realizations p {
+    display: none;
+    font-size: 14px;
+    text-align: center;
+  }
 
-    div.realizations div.desc h1 {
-        font-size: 20px;
-        font-weight: 400;
-    }
+  div.realizations div.desc h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
 
-    div.realizations i {
-        font-size: 22px;
+  div.realizations i {
+    font-size: 22px;
+  }
 
-    }
+  div.imgRealizations {
+    margin: 10% auto;
+    margin-bottom: 5%;
+  }
 
-    div.imgRealizations {
-        margin: 10% auto;
-        margin-bottom: 5%;
-    }
+  div.imgDescription {
+    width: 90%;
+  }
 
-    div.imgDescription {
-        width: 90%;
-    }
-
-    div.realizations hr {
-        display: block;
-        width: 80%;
-        margin: 10% auto;
-        margin-top: 5%;
-    }
+  div.realizations hr {
+    display: block;
+    width: 80%;
+    margin: 10% auto;
+    margin-top: 5%;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
-    /* main div.realizations h1 {
+  /* main div.realizations h1 {
         font-size: 24px;
     }
 
@@ -1158,597 +1099,571 @@
     } */
 }
 
-
 /* COUNTERS */
 
 @media (orientation: portrait) and (min-width: 319px) {
-    div.contact hr {
-        display: block;
-        margin-bottom: 10%;
-        width: 80%;
-        margin: 10% auto;
-    }
+  div.contact hr {
+    display: block;
+    margin-bottom: 10%;
+    width: 80%;
+    margin: 10% auto;
+  }
 
-    div.counters h1 {
-        font-size: 24px;
-        margin: 4%;
-    }
+  div.counters h1 {
+    font-size: 24px;
+    margin: 4%;
+  }
 
-    div.counters div.counterscontainer {
-        display: flex;
-        height: 110vh;
-        flex-direction: column;
-        margin-top: 5%;
-        margin-bottom: 15%;
-    }
+  div.counters div.counterscontainer {
+    display: flex;
+    height: 110vh;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
 
-    div.counters div.counterscontainer div.count p.counter {
-        font-size: 48px;
-        font-weight: 400;
-        /* font-family: 'Anton', sans-serif; */
-        transition: 2s;
-    }
+  div.counters div.counterscontainer div.count p.counter {
+    font-size: 48px;
+    font-weight: 400;
+    /* font-family: 'Anton', sans-serif; */
+    transition: 2s;
+  }
 
-    div.counters div.counterscontainer div.count p {
-        font-size: 16px;
-        font-weight: 500;
-    }
-
+  div.counters div.counterscontainer div.count p {
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 350px) {
-    div.counters h1 {
-        font-size: 28px;
-    }
+  div.counters h1 {
+    font-size: 28px;
+  }
 
-    div.counters div.counterscontainer {
-        display: flex;
-        height: 90vh;
-        flex-direction: column;
-        margin-top: 5%;
-        margin-bottom: 15%;
-    }
+  div.counters div.counterscontainer {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 750px) {
-    div.counters {
-        height: 20vh;
-    }
+  div.counters {
+    height: 20vh;
+  }
 
-    div.counters h1 {
-        font-size: 32px;
-    }
+  div.counters h1 {
+    font-size: 32px;
+  }
 
-    div.counters div.counterscontainer {
-        display: flex;
-        height: 20vh;
-        flex-direction: row;
-        margin-top: 5%;
-        margin-bottom: 4%;
-        margin: auto 8%;
-    }
+  div.counters div.counterscontainer {
+    display: flex;
+    height: 20vh;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin: auto 8%;
+  }
 
-    div.counters div.counterscontainer div.count p.counter {
-        font-size: 62px;
-        font-weight: 400;
-        /* font-family: 'Anton', sans-serif; */
-        transition: 2s;
-    }
+  div.counters div.counterscontainer div.count p.counter {
+    font-size: 62px;
+    font-weight: 400;
+    /* font-family: 'Anton', sans-serif; */
+    transition: 2s;
+  }
 
-    div.counters div.counterscontainer div.count p {
-        font-size: 16px;
-        font-weight: 500;
-    }
+  div.counters div.counterscontainer div.count p {
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
-    div.contact hr {
-        display: block;
-        margin-bottom: 10%;
-        width: 80%;
-        margin: 10% auto;
-    }
+  div.contact hr {
+    display: block;
+    margin-bottom: 10%;
+    width: 80%;
+    margin: 10% auto;
+  }
 
-    div.counters {
-        padding: 0 10%;
-        height: 40vh;
-    }
+  div.counters {
+    padding: 0 10%;
+    height: 40vh;
+  }
 
-    div.counters h1 {
-        font-size: 24px;
-    }
+  div.counters h1 {
+    font-size: 24px;
+  }
 
-    div.counters div.counterscontainer {
-        display: flex;
-        height: 20vh;
-        flex-direction: row;
-        margin-top: 5%;
-        margin-bottom: 15%;
-    }
+  div.counters div.counterscontainer {
+    display: flex;
+    height: 20vh;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
 
-    div.counters div.counterscontainer div.count p.counter {
-        font-size: 34px;
-        font-weight: 400;
-        /* font-family: 'Anton', sans-serif; */
-        transition: 2s;
-    }
+  div.counters div.counterscontainer div.count p.counter {
+    font-size: 34px;
+    font-weight: 400;
+    /* font-family: 'Anton', sans-serif; */
+    transition: 2s;
+  }
 
-    div.counters div.counterscontainer div.count p {
-        font-size: 12px;
-        font-weight: 500;
-    }
+  div.counters div.counterscontainer div.count p {
+    font-size: 12px;
+    font-weight: 500;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
-    div.contact hr {
-        display: block;
-        margin-bottom: 10%;
-        width: 80%;
-        margin: 10% auto;
-    }
+  div.contact hr {
+    display: block;
+    margin-bottom: 10%;
+    width: 80%;
+    margin: 10% auto;
+  }
 
-    div.counters h1 {
-        font-size: 24px;
-    }
+  div.counters h1 {
+    font-size: 24px;
+  }
 
-    div.counters div.counterscontainer {
-        display: flex;
-        height: 20vh;
-        flex-direction: row;
-        margin-top: 5%;
-        margin-bottom: 15%;
-    }
+  div.counters div.counterscontainer {
+    display: flex;
+    height: 20vh;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
 
-    div.counters div.counterscontainer div.count p.counter {
-        font-size: 34px;
-        font-weight: 400;
-        /* font-family: 'Anton', sans-serif; */
-        transition: 2s;
-    }
+  div.counters div.counterscontainer div.count p.counter {
+    font-size: 34px;
+    font-weight: 400;
+    /* font-family: 'Anton', sans-serif; */
+    transition: 2s;
+  }
 
-    div.counters {
-        padding: 0 10%;
-        height: 40vh;
-    }
+  div.counters {
+    padding: 0 10%;
+    height: 40vh;
+  }
 
-    div.counters div.counterscontainer div.count p {
-        font-size: 12px;
-        font-weight: 500;
-    }
+  div.counters div.counterscontainer div.count p {
+    font-size: 12px;
+    font-weight: 500;
+  }
 }
-
 
 /* CONTACT */
 
 @media (orientation: portrait) and (min-width: 319px) {
-    div.contact {
-        margin-top: 60%;
-        height: 120vh;
-        position: static;
-        display: block;
-        overflow-y: hidden;
-    }
+  div.contact {
+    margin-top: 60%;
+    height: 120vh;
+    position: static;
+    display: block;
+    overflow-y: hidden;
+  }
 
-    div.contact h1 {
-        font-size: 24px;
-        margin: 10% 10%;
-    }
+  div.contact h1 {
+    font-size: 24px;
+    margin: 10% 10%;
+  }
 
-    div.contact div.contactwrapper form.sendtous input {
-        width: 80vw;
-        height: 5vh;
-        margin: 2% auto;
-        border: none;
-        border-bottom: 1px solid #ddd;
-    }
+  div.contact div.contactwrapper form.sendtous input {
+    width: 80vw;
+    height: 5vh;
+    margin: 2% auto;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
 
-    div.contact div.contactwrapper form.sendtous textarea {
-        width: 80vw;
-        height: 20vh;
-        margin: 10% auto;
-        border-color: #ddd;
+  div.contact div.contactwrapper form.sendtous textarea {
+    width: 80vw;
+    height: 20vh;
+    margin: 10% auto;
+    border-color: #ddd;
+  }
 
-    }
+  div.contact div.contactwrapper form.sendtous label {
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin: 5% auto;
+    width: 80%;
+  }
 
-    div.contact div.contactwrapper form.sendtous label {
-        font-size: 10px;
-        text-align: center;
-        font-weight: 500;
-        margin: 5% auto;
-        width: 80%;
-    }
+  div.contact div.contactwrapper form.sendtous label input {
+    text-align: center;
+    width: 10vw;
+    height: 2.5vh;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
 
-    div.contact div.contactwrapper form.sendtous label input {
-        text-align: center;
-        width: 10vw;
-        height: 2.5vh;
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
+  div.contact div.contactwrapper form.sendtous p {
+    font-size: 8px;
+    text-align: center;
+    margin: 0 10%;
+  }
 
-    div.contact div.contactwrapper form.sendtous p {
-        font-size: 8px;
-        text-align: center;
-        margin: 0 10%;
-    }
+  div.contact div.contactwrapper form.sendtous button {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    font-size: 16px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ddd;
+    color: #111;
+    height: 7vh;
+    margin: 5% 20% 0;
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 4px;
+  }
 
-    div.contact div.contactwrapper form.sendtous button {
-        display: inline-block;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 5%;
-        font-size: 16px;
-        width: 60%;
-        background-color: rgba(255, 255, 255, 0.4);
-        border: 1px solid #ddd;
-        color: #111;
-        height: 7vh;
-        margin: 5% 20% 0;
-        box-shadow: 2px 5px 10px gray;
-        border-radius: 4px;
-    }
-
-    div.contact div.contactwrapper form.sendtous button:hover {
-        background-color: #eee;
-    }
-
+  div.contact div.contactwrapper form.sendtous button:hover {
+    background-color: #eee;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 349px) {
-    div.contact {
-        margin-top: 200px;
-        height: 120vh;
-        position: static;
-        display: block;
-    }
+  div.contact {
+    margin-top: 200px;
+    height: 120vh;
+    position: static;
+    display: block;
+  }
 
-    div.contact h1 {
-        font-size: 28px;
-        margin: 10% 10%;
-    }
+  div.contact h1 {
+    font-size: 28px;
+    margin: 10% 10%;
+  }
 
-    div.contact div.contactwrapper form.sendtous input {
-        width: 80vw;
-        height: 5vh;
-        margin: 2% auto;
-        border: none;
-        border-bottom: 1px solid #ddd;
-    }
+  div.contact div.contactwrapper form.sendtous input {
+    width: 80vw;
+    height: 5vh;
+    margin: 2% auto;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
 
-    div.contact div.contactwrapper form.sendtous textarea {
-        width: 80vw;
-        height: 20vh;
-        margin: 10% auto;
-        border-color: #ddd;
+  div.contact div.contactwrapper form.sendtous textarea {
+    width: 80vw;
+    height: 20vh;
+    margin: 10% auto;
+    border-color: #ddd;
+  }
 
-    }
+  div.contact div.contactwrapper form.sendtous label {
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin: 5% auto;
+    width: 80%;
+  }
 
-    div.contact div.contactwrapper form.sendtous label {
-        font-size: 10px;
-        text-align: center;
-        font-weight: 500;
-        margin: 5% auto;
-        width: 80%;
-    }
+  div.contact div.contactwrapper form.sendtous p {
+    font-size: 10px;
+    text-align: center;
+    margin: 0 10%;
+  }
 
-    div.contact div.contactwrapper form.sendtous p {
-        font-size: 10px;
-        text-align: center;
-        margin: 0 10%;
-    }
+  div.contact div.contactwrapper form.sendtous button {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ddd;
+    color: #111;
+    height: 7vh;
+    margin: 5% 20% 0;
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 4px;
+  }
 
-    div.contact div.contactwrapper form.sendtous button {
-        display: inline-block;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 16px;
-        width: 60%;
-        background-color: rgba(255, 255, 255, 0.4);
-        border: 1px solid #ddd;
-        color: #111;
-        height: 7vh;
-        margin: 5% 20% 0;
-        box-shadow: 2px 5px 10px gray;
-        border-radius: 4px;
-    }
-
-    div.contact div.contactwrapper form.sendtous button:hover {
-        background-color: #eee;
-    }
-
-
+  div.contact div.contactwrapper form.sendtous button:hover {
+    background-color: #eee;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 750px) {
+  div.contact h1 {
+    font-size: 32px;
+  }
 
-    div.contact h1 {
-        font-size: 32px;
-    }
+  div.contact div.contactwrapper form.sendtous label {
+    font-size: 22px;
+  }
 
-    div.contact div.contactwrapper form.sendtous label {
-        font-size: 22px;
-    }
-
-    div.contact div.contactwrapper form.sendtous p {
-        font-size: 12px;
-    }
-
+  div.contact div.contactwrapper form.sendtous p {
+    font-size: 12px;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
-    div.contact {
-        height: 190vh;
-        position: static;
-        display: block;
-        overflow-y: hidden;
-    }
+  div.contact {
+    height: 190vh;
+    position: static;
+    display: block;
+    overflow-y: hidden;
+  }
 
-    div.contact h1 {
-        font-size: 24px;
-        margin: 5% 10%;
-    }
+  div.contact h1 {
+    font-size: 24px;
+    margin: 5% 10%;
+  }
 
-    div.contact div.contactwrapper form.sendtous input {
-        width: 80vw;
-        height: 5vh;
-        margin: 2% auto;
-        border: none;
-        border-bottom: 1px solid #ddd;
-    }
+  div.contact div.contactwrapper form.sendtous input {
+    width: 80vw;
+    height: 5vh;
+    margin: 2% auto;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
 
-    div.contact div.contactwrapper form.sendtous textarea {
-        width: 80vw;
-        height: 20vh;
-        margin: 5% auto;
-        border-color: #ddd;
+  div.contact div.contactwrapper form.sendtous textarea {
+    width: 80vw;
+    height: 20vh;
+    margin: 5% auto;
+    border-color: #ddd;
+  }
 
-    }
+  div.contact div.contactwrapper form.sendtous label {
+    font-size: 14px;
+    text-align: center;
+    margin: 5% auto;
+    width: 80%;
+  }
 
-    div.contact div.contactwrapper form.sendtous label {
-        font-size: 14px;
-        text-align: center;
-        margin: 5% auto;
-        width: 80%;
-    }
+  div.contact div.contactwrapper form.sendtous label input {
+    text-align: center;
+    width: 10vw;
+    height: 4.5vh;
+    margin: 0;
+    vertical-align: bottom;
+    border: none;
+  }
 
-    div.contact div.contactwrapper form.sendtous label input {
-        text-align: center;
-        width: 10vw;
-        height: 4.5vh;
-        margin: 0;
-        vertical-align: bottom;
-        border: none;
-    }
+  div.contact div.contactwrapper form.sendtous p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0 10%;
+  }
 
-    div.contact div.contactwrapper form.sendtous p {
-        font-size: 12px;
-        text-align: center;
-        margin: 0 10%;
-    }
+  div.contact div.contactwrapper form.sendtous button {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    font-size: 16px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ddd;
+    color: #111;
+    height: 8vh;
+    margin: 5% auto;
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 4px;
+  }
 
-    div.contact div.contactwrapper form.sendtous button {
-        display: inline-block;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 5%;
-        font-size: 16px;
-        width: 40%;
-        background-color: rgba(255, 255, 255, 0.4);
-        border: 1px solid #ddd;
-        color: #111;
-        height: 8vh;
-        margin: 5% auto;
-        box-shadow: 2px 5px 10px gray;
-        border-radius: 4px;
-    }
-
-    div.contact div.contactwrapper form.sendtous button:hover {
-        background-color: #eee;
-    }
+  div.contact div.contactwrapper form.sendtous button:hover {
+    background-color: #eee;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
-    div.contact div.contactwrapper form.sendtous p {
-        font-size: 12px;
-        text-align: center;
-        margin: 0 10%;
-    }
+  div.contact div.contactwrapper form.sendtous p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0 10%;
+  }
 }
-
-
-
-
 
 /*FOOTER*/
 
-
 @media (orientation: portrait) and (min-width: 319px) {
+  /*1 SLIDE */
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 10%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background-color: #f7f7f7;
+  }
 
-    /*1 SLIDE */
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        margin-top: 10%;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 40vh;
-        background-color: #f7f7f7;
-    }
+  footer div.address div.sitemap {
+    display: none;
+  }
 
-    footer div.address div.sitemap {
-        display: none;
-    }
+  footer div.address div.company {
+    flex-basis: 100%;
+    text-align: center;
+  }
 
-    footer div.address div.company {
-        flex-basis: 100%;
-        text-align: center;
-    }
+  footer div.address h2 {
+    font-weight: 400;
+    font-size: 16px;
+  }
 
-    footer div.address h2 {
-        font-weight: 400;
-        font-size: 16px;
-    }
+  footer div.address p {
+    font-size: 10px;
+  }
 
+  footer div.address div.arrow {
+    position: absolute;
+    width: 25%;
+  }
 
-    footer div.address p {
-        font-size: 10px;
-    }
+  /*2 SLIDE */
 
-    footer div.address div.arrow {
-        position: absolute;
-        width: 25%;
-    }
+  footer div.footercopy p {
+    font-size: 8px;
+    padding: 2% auto;
+  }
 
-    /*2 SLIDE */
+  footer div.footercopy p:nth-of-type(1) {
+    padding-top: 1%;
+  }
 
-    footer div.footercopy p {
-        font-size: 8px;
-        padding: 2% auto;
-    }
-
-    footer div.footercopy p:nth-of-type(1) {
-        padding-top: 1%;
-    }
-
-    footer div.footercopy p:nth-of-type(2) {
-        padding: 2.5%;
-        font-family: 'Pacifico', cursive;
-        font-weight: 400;
-        color: ddd;
-    }
-
-
+  footer div.footercopy p:nth-of-type(2) {
+    padding: 2.5%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: ddd;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 349px) {
+  /*1 SLIDE */
 
-    /*1 SLIDE */
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background-color: #f7f7f7;
+  }
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 40vh;
-        background-color: #f7f7f7;
-    }
+  footer div.address div.sitemap {
+    display: none;
+  }
 
-    footer div.address div.sitemap {
-        display: none;
-    }
+  footer div.address div.company {
+    flex-basis: 100%;
+    text-align: center;
+  }
 
-    footer div.address div.company {
-        flex-basis: 100%;
-        text-align: center;
-    }
+  footer div.address h2 {
+    font-weight: 400;
+    font-size: 16px;
+  }
 
-    footer div.address h2 {
-        font-weight: 400;
-        font-size: 16px;
-    }
+  footer div.address p {
+    font-size: 10px;
+  }
 
+  footer div.address div.arrow {
+    position: absolute;
+    width: 25%;
+  }
 
-    footer div.address p {
-        font-size: 10px;
-    }
+  /*2 SLIDE */
 
-    footer div.address div.arrow {
-        position: absolute;
-        width: 25%;
-    }
-
-    /*2 SLIDE */
-
-    footer div.footercopy p {
-        font-size: 12px;
-    }
-
-
+  footer div.footercopy p {
+    font-size: 12px;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 850px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        overflow-y: hidden;
-        margin-top: 10%;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 70vh;
-        background-color: #f7f7f7;
-    }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow-y: hidden;
+    margin-top: 10%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: #f7f7f7;
+  }
 
-    footer div.address {
-        height: 100%;
-    }
+  footer div.address {
+    height: 100%;
+  }
 
-    footer div.address div.sitemap {
-        display: none;
-    }
+  footer div.address div.sitemap {
+    display: none;
+  }
 
-    footer div.address div.company {
-        flex-basis: 100%;
-        text-align: center;
-    }
+  footer div.address div.company {
+    flex-basis: 100%;
+    text-align: center;
+  }
 
-    footer div.address h2 {
-        font-weight: 400;
-        font-size: 14px;
-    }
+  footer div.address h2 {
+    font-weight: 400;
+    font-size: 14px;
+  }
 
+  footer div.address p {
+    font-size: 16px;
+  }
 
-    footer div.address p {
-        font-size: 16px;
-    }
+  footer div.address div.arrow {
+    position: absolute;
+    width: 45%;
+  }
 
-    footer div.address div.arrow {
-        position: absolute;
-        width: 45%;
-    }
+  footer div.address i {
+    font-size: 10.5vh;
+  }
 
-    footer div.address i {
-        font-size: 10.5vh;
-    }
+  /*2 SLIDE */
 
-    /*2 SLIDE */
+  footer div.footercopy p {
+    font-size: 8px;
+  }
 
-    footer div.footercopy p {
-        font-size: 8px;
-    }
+  footer div.footercopy p:nth-of-type(1) {
+    padding-top: 1%;
+  }
 
-    footer div.footercopy p:nth-of-type(1) {
-        padding-top: 1%;
-    }
-
-    footer div.footercopy p:nth-of-type(2) {
-        font-family: 'Pacifico', cursive;
-        font-weight: 400;
-        color: #ddd;
-    }
-
+  footer div.footercopy p:nth-of-type(2) {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: #ddd;
+  }
 }
 
 @media (orientation: LANDSCAPE) and (max-width: 600px) {
-    footer div.footercopy p:nth-of-type(1) {
-        padding-top: 1%;
-    }
+  footer div.footercopy p:nth-of-type(1) {
+    padding-top: 1%;
+  }
 }
