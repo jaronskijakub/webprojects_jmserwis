@@ -22,7 +22,7 @@ $("div.hamburger li.one").on("click", (e) => {
 
   let liFromTop = document.querySelector("header img").offsetTop;
 
-  liFromTop += 200;
+  liFromTop += 1600;
 
   $("body, html").animate({
     scrollTop: liFromTop,
@@ -57,6 +57,16 @@ $("div.hamburger li.four").on("click", (e) => {
   e.preventDefault();
 
   $("div.hamburger").removeClass("active");
+
+  let liFromTop = document.querySelector(".contact").offsetTop;
+
+  $("body, html").animate({
+    scrollTop: liFromTop,
+  });
+});
+
+$("main div.bgc button.check").on("click", (e) => {
+  e.preventDefault();
 
   let liFromTop = document.querySelector(".contact").offsetTop;
 

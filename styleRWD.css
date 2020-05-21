@@ -216,7 +216,7 @@
   }
 
   div.hamburger.active div.logo {
-    width: 100%;
+    width: 60%;
     height: 20vh;
   }
 
@@ -244,6 +244,7 @@
   }
 
   div.hamburger.active ul {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -263,8 +264,8 @@
   div.hamburger.active ul i {
     margin-top: 5%;
     color: gray;
-    font-size: 28px;
-    opacity: 0.5;
+    font-size: 38px;
+    opacity: 0.6;
   }
 }
 
@@ -399,7 +400,7 @@
     display: flex;
     /* display: flex; */
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     transition: 2s;
     overflow-y: hidden;
   }
@@ -992,6 +993,8 @@ _:future,
   }
 
   div.imgRealizations {
+    height: 70vh;
+    width: 80vw;
     margin: 0 auto;
   }
 
